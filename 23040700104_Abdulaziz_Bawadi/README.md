@@ -1,10 +1,10 @@
 
-##🪪 Student Identity:
+## 🪪 Student Identity:
 Nama: Abdulaziz Abdullah Bawadi
 
 NIM: 23040700104
 
-##📋 1. Assignment Analysis
+## 📋 1. Assignment Analysis
 
 The assignment title is:
 
@@ -21,7 +21,7 @@ In digital forensics, evidence must not be changed without detection. If a PCAP 
 - Tampering detection
 - Merkle Tree verification
 
-###⚒️ Tools:
+### ⚒️ Tools:
 
 
 ### Mandatory Requirements
@@ -39,7 +39,7 @@ The mandatory parts are:
 
 
 
-##⚙️ 2. System Design
+## ⚙️ 2. System Design
 
 The system is divided into several stages.
 
@@ -57,7 +57,7 @@ The program creates five PCAP files:
 
 Each PCAP file represents one piece of network evidence.
 
-###🔎 Stage 2: Evidence Hashing
+### 🔎 Stage 2: Evidence Hashing
 
 For each PCAP file, the program calculates:
 
@@ -68,7 +68,7 @@ For each PCAP file, the program calculates:
 
 The SHA-256 hash acts as the digital fingerprint of the evidence.
 
-###⛓️ Stage 3: Blockchain Creation
+### ⛓️ Stage 3: Blockchain Creation
 
 The blockchain contains:
 
@@ -77,7 +77,7 @@ The blockchain contains:
 
 Each evidence block stores the SHA-256 hash of one PCAP file.
 
-###✅ Stage 4: Blockchain Validation
+### ✅ Stage 4: Blockchain Validation
 
 The program validates:
 
@@ -91,7 +91,7 @@ The program modifies one byte in a PCAP file and recalculates the hash.
 
 If the new hash is different from the old hash, tampering is detected.
 
-###📄 Stage 6: Final Reporting
+### 📄 Stage 6: Final Reporting
 
 The system generates a final report containing:
 
